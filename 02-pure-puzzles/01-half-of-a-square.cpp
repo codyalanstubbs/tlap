@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-  for (int i = 0; i < 5; i++) {
-    for (int hashNum = 1; hashNum <= 5; hashNum++) {
+  for (int row = 1; row <= 5; row++) {
+    for (int hashNum = 1; hashNum <= 6-row; hashNum++) {
       cout << "#";
     }
     cout << "\n";
